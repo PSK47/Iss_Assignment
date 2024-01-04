@@ -1,0 +1,57 @@
+body
+{
+font-family: 'Oswald', sans-serif;
+background:center/cover no-repeat
+url("https://i.pinimg.com/736x/94/8e/fc/948efc65087a553bf42cc0342e885689.jp
+g");
+color: #db6ce0;
+}
+.heading img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h2
+{
+text-align: center;
+}
+.intro
+{
+border: white 1px solid;
+}
+.guide
+{
+border: white 1px solid;
+display: flex;
+flex-direction: column;
+margin:2%;
+align-content: center;
+}
+.content
+{
+display: flex;
+border: white 1px solid;
+border-radius:5px;
+flex-direction: column;
+margin:1%;
+align-content: center;
+text-align: center;
+}
+.checkbox
+{
+border: white 1px solid;
+margin: 0% 25% 0%;
+}
+.domain
+{
+border: white 1px solid;
+margin: 2% 25% 2%;
+}
+.reg
+{
+border: white 1px solid;
+padding: 0%;
+margin: 2% 40% 2%;
+border-radius: 50%;
+}

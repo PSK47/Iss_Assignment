@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Form styling.css">
+    <script defer src="validation.js"></script>
+    <title>ISS_Assignment</title>
+</head>
+<body>
+<div class="heading">
+<img src="C:\Users\pkulk\Downloads\siam logo.png" alt="SIAM-VIT">
+</div>
+<div class="reg">
+<h2>Registration Form</h2>
+</div>
+<div class="intro">
+<p>
+Looking for a place to grow, learn and have expertise in problem solving and
+decision making?
+There's always enough room for people trying to work on their leadership
+skills.
+Enter your details belore to be a part of one of the best management teams
+of VIT.
+</p>
+</div>
+<div class="guide">
+<h2>There are some certain Guidelines which you have to follow</h2>
+<ol>
+<li>Only students from VIT-Vellore are eligible to apply.</li>
+<li>All the students registering through this form should register on VTOP
+as well. If you fail to do so the registration stands null.</li>
+<li>You may apply for multiple domains
+Technical/Management/Content/Design.</li>
+<li>Registration is open to First and Second students.</li>
+<li>Use only VIT e-mail ID to fill the form.</li>
+</ol>
+</div>
+<br>
+<div class="content">
+<form>
+<div class="email">
+<label for="email">Email</label><br>
+<input type="email" style="border:none; border-bottom: 1px solid black;
+width:75%; color:rgb(190, 190, 190)" id="email" name="email"
+placeholder=" xyz@email.com" required>
+</div>
+<br>
+<div class="checkbox">
+<p>Have you registered on VTOP yet ? (If not please register now)</p>
+<hr>
+<div>
+<input type="radio" id="huey" name="drone" value="huey"
+checked>
+<label for="huey">Yes</label>
+</div>
+<div>
+<input type="radio" id="dewey" name="drone" value="dewey">
+<label for="dewey">No</label>
+</div>
+</div>
+<div class="name">
+Name <br>
+<input type="text" name="fname" value="Enter your name"
+style="border:none; border-bottom: 1px solid black; width:75%;
+color:rgb(190, 190, 190)"requires>
+</div>
+<div class="name">
+Registration number <br>
+<input type="text" name="fname" value="Enter your registration number"
+style="border:none; border-bottom: 1px solid black; width:75%;
+color:rgb(190, 190, 190)"requires>
+</div>
+<div class="name">
+Whatsapp Number <br>
+<input type="text" name="fname" value="Enter your whatsapp number"
+style="border:none; border-bottom: 1px solid black; width:75%;
+color:rgb(190, 190, 190)"requires>
+</div>
+<div class="domain">
+Domain preference <hr>
+Make sure you answer the questions for the selected domain(s)<br>
+<input type="checkbox" id="Technical" name="Technical" value="Technical">
+<label for="Technical">Technical</label><br>
+<input type="checkbox" id="Management" name="Management"
+value="Management">
+<label for="Management">Management</label><br>
+<input type="checkbox" id="Content" name="Content" value="Content">
+<label for="Content">Content</label><br>
+<input type="checkbox" id="Design" name="Design" value="Design">
+<label for="Design">Design</label><br>
+</div>
+<input type="button" id="Submit"value="Submit">
+<input type="button" id="clear"value="Clear response">
+</form>
+</div>
+</body>
+</html>
